@@ -1,0 +1,14 @@
+defaults:
+  - default
+  - _self_
+
+id: BallGame
+action_repeat: 1
+capture_video: False
+reward_as_observation: False
+num_envs: 1
+
+
+wrapper:
+  _target_: sheeprl.envs.BallGame.BallEnv
+  render_mode: rgb_array

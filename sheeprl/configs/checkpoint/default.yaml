@@ -1,4 +1,7 @@
 every: 100
-resume_from: null
+resume_from: False
 save_last: True
 keep_last: 5
+
+#resume_from: "logs\\runs\\dreamer_v3\\BallGame\\2024-05-18_02-08-20_dreamer_v3_BallGame_42\\version_0\\checkpoint\\ckpt_100000_0.ckpt"
+
